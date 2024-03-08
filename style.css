@@ -1,0 +1,98 @@
+img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;   
+}
+
+.all {
+    height: 850px;
+    width: 600px;
+    border: 5px;
+    position: relative;
+    border-style: solid;
+}
+
+.pinfo {
+    display: inline-block;
+    padding: 5px;
+}
+
+.pname {  
+    height: 70px;
+    display: inline-block;
+    position: absolute;
+    left: 90px;
+    padding: 5px;
+}
+
+h1{
+    padding: 0;
+}
+
+.ploc {
+    display: inline-block;
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    left: 380px;
+    top: 25px;
+}
+
+.plocc {
+    font-size: 20px;
+}
+
+.hrl {
+    height: 2px;
+    width: 525px;
+    background-color: black;
+    position: absolute;
+    top: 70px;
+    left: 76px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.sum {
+    position: relative;
+    width: 400px;
+    left: 100px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.edu {
+    position: relative;
+    width: 400px;
+    left: 100px;
+}
+
+.ski {
+    position: relative;
+    width: 400px;
+    left: 100px;
+}
+
+.lan {
+    position: relative;
+    width: 400px;
+    left: 100px;
+}
+
+.oth {
+    position: relative;
+    width: 400px;
+    left: 100px;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(90deg,red, yellow);
+}
